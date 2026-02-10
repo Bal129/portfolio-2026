@@ -1,0 +1,191 @@
+{
+  "version": "1.0",
+  "resume_link": "",
+  "portfolio_link": "",
+  "about_me": {
+    "name": "Ahmad Iqbal Bin Che Shamshudin",
+    "description": "An IT Engineer with strong interests in web and game development, IoT systems, as well as computer hardware. Driven by a passion for technology and continuous learning."
+  },
+  "skills": [
+    {
+      "type": "Programming Languages",
+      "items": [
+        {
+          "name": "HTML",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "CSS (Bootstrap)",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Typescript (React, React-Native, Vue)",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Java",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "C#",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "C++",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Python (FastAPI)",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "PHP",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Go",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "MySQL",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "PostgresQL",
+          "icon": "placeholder.png"
+        }
+      ]
+    },
+    {
+      "type": "Technical tools",
+      "items": [
+        {
+          "name": "Github",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Ubuntu",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Docker",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Unity",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Unreal Engine 5",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Phaser Js",
+          "icon": "placeholder.png"
+        }
+      ]
+    },
+    {
+      "type": "Others",
+      "items": [
+        {
+          "name": "Microsoft Office",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Blender",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Krita",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "VSDC video editor",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "PC build, services and sales",
+          "icon": "placeholder.png"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "type": "Email",
+      "username": "a.iqbalcs129@gmail.com",
+      "icon": "placeholder.png",
+      "url": "mailto:a.iqbalcs129@gmail.com"
+    },
+    {
+      "type": "LinkedIn",
+      "username": "Ahmad Iqbal Che Shamshudin",
+      "icon": "placeholder.png",
+      "url": "http://www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
+    },
+    {
+      "type": "GitHub",
+      "username": "Bal129",
+      "icon": "placeholder.png",
+      "url": "https://github.com/Bal129"
+    }
+  ],
+  "education": {
+    "institution": "Multimedia University (MMU) Cyberjaya",
+    "courses": [
+      "Bachelor of Computer Science (Hons) (Specialization in Game Development)",
+      "Foundation in Information Technology"
+    ],
+    "date_start": "2019",
+    "date_end": "2024"
+  },
+  "experiences": [
+    {
+      "role": "IT Engineer",
+      "type": "Full time",
+      "company": "Iotra Digital",
+      "date_start": "May 2025",
+      "date_end": "Present",
+      "description": "Integrated IoT devices into dashboards and developed web apps for clients, also performed on-site technician work"
+    },
+    {
+      "role": "PC Builder & Retail Assistant",
+      "type": "Full time",
+      "company": "Lucro PC",
+      "date_start": "May 2024",
+      "date_end": "February 2025",
+      "description": "Built, troubleshot and serviced over 100 custom PCs for personal and business use."
+    },
+    {
+      "role": "Technician",
+      "type": "Contract",
+      "company": "Zikay Synergy",
+      "date_start": "February 2024",
+      "date_end": "March 2024",
+      "description": "Travelled to the clients' offices to install laptops, printers, charging stations and their respective software including drivers. Performed testing and documented records."
+    },
+    {
+      "role": "Web Developer",
+      "type": "Internship",
+      "company": "Pro Office Technology",
+      "date_start": "July 2023",
+      "date_end": "October 2023",
+      "description": "Developed a full-stack website for the company's internal data entry system."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CompTIA Tech+ Certification",
+      "icon": "placeholder.png",
+      "date": "September 2025",
+      "credential_url": "https://www.credly.com/badges/ca008887-2996-45d1-b6f3-d442a1cd5446/public_url"
+    },
+    {
+      "name": "ICDL Data Analytics",
+      "icon": "placeholder.png",
+      "date": "November 2022",
+      "credential_url": "https://profile.icdlasia.org/dbc7899e-232c-490e-8496-315701c67024#acc.nup4fdlP"
+    }
+  ]
+}
