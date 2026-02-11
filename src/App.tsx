@@ -3,6 +3,7 @@ import Header from './sections/Header';
 import Profile from './sections/Profile';
 import Skills from './sections/Skills';
 import Contacts from './sections/Contacts';
+import Directories from './sections/Directories';
 import Projects from './sections/Projects';
 
 // import components
@@ -29,6 +30,7 @@ function App() {
         resumeData && (
           <>
             <Header aboutMeData={resumeData.about_me} />
+            <Directories />
             <Profile 
               educationData={resumeData.education}
               certificationsData={resumeData.certifications}

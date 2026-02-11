@@ -8,7 +8,7 @@ type Props = {
 
 function Profile({educationData, certificationsData, experiencesData}: Props) {
   return (
-    <div>
+    <div id="profile">
       <h1>Educations</h1>
 
       {educationData.courses.map((course) => (

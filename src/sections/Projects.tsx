@@ -6,7 +6,7 @@ type Props = {
 
 function Projects({projects}: Props) {
   return (
-    <div>
+    <div id="projects">
       <h1>My Projects</h1>
       {
         projects && projects.map((project) => (
