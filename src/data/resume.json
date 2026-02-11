@@ -9,17 +9,35 @@
   "skills": [
     {
       "type": "Programming Languages",
+      "icon": "faLaptopCode",
+      "background": "",
       "items": [
         {
           "name": "HTML",
           "icon": "placeholder.png"
         },
         {
-          "name": "CSS (Bootstrap)",
+          "name": "CSS",
           "icon": "placeholder.png"
         },
         {
-          "name": "Typescript (React, React-Native, Vue)",
+          "name": "Bootstrap",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Typescript",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "React",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "React-Native",
+          "icon": "placeholder.png"
+        },
+        {
+          "name": "Vue",
           "icon": "placeholder.png"
         },
         {
@@ -58,6 +76,8 @@
     },
     {
       "type": "Technical tools",
+      "icon": "faToolbox",
+      "background": "",
       "items": [
         {
           "name": "Github",
@@ -87,6 +107,8 @@
     },
     {
       "type": "Others",
+      "icon": "faGears",
+      "background": "",
       "items": [
         {
           "name": "Microsoft Office",
@@ -115,19 +137,19 @@
     {
       "type": "Email",
       "username": "a.iqbalcs129@gmail.com",
-      "icon": "placeholder.png",
+      "icon": "faEnvelope",
       "url": "mailto:a.iqbalcs129@gmail.com"
     },
     {
       "type": "LinkedIn",
       "username": "Ahmad Iqbal Che Shamshudin",
-      "icon": "placeholder.png",
+      "icon": "faLinkedin",
       "url": "http://www.linkedin.com/in/ahmad-iqbal-che-shamshudin-4053b4249"
     },
     {
       "type": "GitHub",
       "username": "Bal129",
-      "icon": "placeholder.png",
+      "icon": "faGithub",
       "url": "https://github.com/Bal129"
     }
   ],

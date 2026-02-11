@@ -1,26 +1,34 @@
 import type { ContactsType } from '../types/resume';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 type Props = {
   data: ContactsType[];
 }
 
+const iconMap: any = {
+  faEnvelope,
+  faGithub,
+  faLinkedin
+};
+
 function Contacts({data}: Props) {
   return (
-    <div id="contacts">
-      <h1>Contacts</h1>
+    <div id="contacts" className="contacts-section">
+      <h1 className="section-header">Contacts</h1>
 
-      {data.map((contact) => (
-        <div key={contact.username}>
-          <a href={contact.url}>
-            <img 
-              src={"/icons/"+contact.icon}
-              alt={contact.type}
-              width="50" height="50"
-            />
-          </a>
-          <h3>{contact.username}</h3>
-        </div>
-      ))}
+      <div className="contacts-list">
+        {data.map((contact) => (
+          <div key={contact.username} className="contact-item">
+            <a href={contact.url} title={contact.url} target="_blank">
+              <FontAwesomeIcon icon={iconMap[contact.icon]} style={{width:50,height:50}}/>
+            </a>
+            {contact.username}
+          </div>
+        ))}
+      </div>
     </div>
   )
 }

@@ -1,6 +1,235 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0rem 2rem 2rem 2rem;
   text-align: center;
+}
+
+.directories-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;           /* Stays at the top of the viewport when scrolled to this position */
+  padding: 10px 0;
+  z-index: 1000;    /* Ensures the header is above other content */
+  width: 100%;      /* Ensures the header spans the full width */
+  gap: 1em;
+}
+
+.header-section {
+  padding-top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-picture {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.section-header {
+  text-align: center;
+  padding: 1em 0em;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.contacts-section, .skills-section, .profile-details, .projects-section {
+  margin: 10em 0em;
+}
+
+.experiences-section {
+  margin-bottom: 10em;
+}
+
+.experiences-container {
+  display: flex;
+  gap: 2rem;
+  margin: 2em 0em;
+  text-align: left;
+}
+
+.experiences-role {
+  display: flex;
+  gap: 1rem;
+  padding: 0em;
+  margin-bottom: 1em;
+}
+
+.experiences-period {
+  min-width: 100px;
+  text-align: right;
+}
+
+.experiences-details {
+  border-left: 2px solid white;
+  padding-left: 1em;
+}
+
+.experiences-name {
+  margin: 0;
+}
+
+.experiences-company {
+  display: flex;
+  align-items: center;     /* Centers vertically along the cross axis */
+  gap: 0.5em;
+}
+
+.certifications-container {
+  text-align: center;
+  margin-bottom: 5em;
+}
+
+.certifications-name {
+  margin-top: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 1rem;
+}
+
+.skill-header {
+  margin-top: 0;
+}
+
+.skill-container {
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 2em;
+  margin: 3em 0em;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.projects-container {
+  margin: 3em 0em;
+}
+
+.projects-thumbnail {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.projects-details {
+  gap: 1em;
+}
+
+.projects-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0em;
+  border-bottom: 2px solid white;
+}
+
+.projects-technical-desc-item {
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.footer-btn-to-top {
+  width: 200px;
+}
+
+@media (min-width: 768px) {
+  .header-section {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-end;
+    gap: 2em;
+  }
+
+  .header-picture {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .header-title {
+    font-size: 5rem;
+    font-weight: bold;
+  }
+
+  .profile-details {
+    display: flex;
+    gap: 5rem;
+  }
+
+  .experiences-section {
+    margin-bottom: 0em;
+  }
+
+  .experiences-period {
+    min-width: 200px;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    gap: 5rem;
+  }
+
+  .projects-thumbnail {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .projects-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2em;
+  }
 }

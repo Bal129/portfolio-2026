@@ -29,10 +29,9 @@ function App() {
       {
         resumeData && (
           <>
-            <Header aboutMeData={resumeData.about_me} />
             <Directories />
+            <Header aboutMeData={resumeData.about_me} />
             <Profile 
-              aboutMeData={resumeData.about_me}
               certificationsData={resumeData.certifications}
               experiencesData={resumeData.experiences}
             />

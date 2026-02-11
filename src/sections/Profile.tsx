@@ -1,46 +1,66 @@
-import type { AboutMeType, CertificationsType, ExperiencesType } from '../types/resume';
+import type {CertificationsType, ExperiencesType } from '../types/resume';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBusinessTime } from '@fortawesome/free-solid-svg-icons';
+import { faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
 
 type Props = {
-  aboutMeData: AboutMeType;
   certificationsData: CertificationsType[];
   experiencesData: ExperiencesType[];
 }
 
-function Profile({aboutMeData,certificationsData, experiencesData}: Props) {
+function Profile({certificationsData, experiencesData}: Props) {
   return (
-    <div id="profile">
-      <h1>About Me</h1>
+    <div id="profile" className="profile-details">
+      <div className="experiences-section">
+        <h1 className="section-header">Experiences</h1>
+        {experiencesData.map((experience) => (
+          <div key={experience.role} className="experiences-container">
+            <div className="experiences-period">
+              {experience.date_start} - {experience.date_end} <br />
+            </div>
+            <div className="experiences-details">
+              <div className="experiences-role">
+                <h3 className="experiences-name">{experience.role}</h3>
+                <div>
+                  <FontAwesomeIcon icon={faBusinessTime} />
+                  <small style={{paddingLeft:"5px"}}>{experience.type}</small>
+                </div>
+              </div>
+              <div className="experiences-company">
+                <img 
+                  src={"/icons/placeholder.png"}
+                  title={experience.company}
+                  alt={"Logo for"+experience.company}
+                  width="35" height="35"
+                />
+                {experience.company}
+              </div>
+              {experience.description} <br />
+            </div>
+          </div>
+        ))}
+      </div>
 
-      {aboutMeData.description} <br />
-
-      <h1>Experiences</h1>
-
-      {experiencesData.map((experience) => (
-        <div key={experience.role}>
-          <h3>{experience.role}</h3>
-          {experience.type} <br />
-          {experience.company} <br />
-          {experience.date_start} - {experience.date_end} <br />
-          {experience.description} <br />
-        </div>
-      ))}
-
-      <h1>Certifications</h1>
-
-      {certificationsData.map((certification) => (
-        <div key={certification.name}>
-          <a href={certification.credential_url}>
+      <div className="certifications-section">
+        <h1 className="section-header">Certifications</h1>
+        {certificationsData.map((certification) => (
+          <div className="certifications-container" key={certification.name}>            
             <img 
               src={"/icons/"+certification.icon}
               title={certification.name}
               alt={certification.name}
-              width="50" height="50"
+              width="120" height="120"
             />
-          </a>
-          <h3>{certification.name}</h3>
-          {certification.date} <br />
-        </div>
-      ))}
+            <a href={certification.credential_url} title="Check Credential" target="_blank">
+              <h3 className="certifications-name">
+                {certification.name}
+                <small style={{paddingLeft:"10px"}}><FontAwesomeIcon icon={faArrowTrendUp} /></small>
+              </h3>
+            </a>
+            {certification.date} <br />
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
