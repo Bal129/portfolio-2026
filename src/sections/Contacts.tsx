@@ -1,4 +1,4 @@
-import type { ContactsType } from '../types/types';
+import type { ContactsType } from '../types/resume';
 
 type Props = {
   data: ContactsType[];

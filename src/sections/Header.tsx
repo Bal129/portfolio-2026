@@ -1,4 +1,4 @@
-import type { AboutMeType } from '../types/types';
+import type { AboutMeType } from '../types/resume';
 
 type Props = {
   aboutMeData: AboutMeType;

@@ -1,4 +1,4 @@
-import type { EducationType, CertificationsType, ExperiencesType } from '../types/types';
+import type { EducationType, CertificationsType, ExperiencesType } from '../types/resume';
 
 type Props = {
   educationData: EducationType;

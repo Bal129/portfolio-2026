@@ -1,4 +1,4 @@
-import type { SkillsType } from '../types/types';
+import type { SkillsType } from '../types/resume';
 
 type Props = {
   data: SkillsType[];

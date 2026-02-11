@@ -2,7 +2,7 @@ import Header from './sections/Header';
 import Profile from './sections/Profile';
 import Skills from './sections/Skills';
 import Contacts from './sections/Contacts';
-import type { ResumeType } from './types/types';
+import type { ResumeType } from './types/resume';
 import resumeJson from './data/resume.json';
 import './App.css'
 
