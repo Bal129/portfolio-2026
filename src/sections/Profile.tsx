@@ -1,23 +1,29 @@
-import type { EducationType, CertificationsType, ExperiencesType } from '../types/resume';
+import type { AboutMeType, CertificationsType, ExperiencesType } from '../types/resume';
 
 type Props = {
-  educationData: EducationType;
+  aboutMeData: AboutMeType;
   certificationsData: CertificationsType[];
   experiencesData: ExperiencesType[];
 }
 
-function Profile({educationData, certificationsData, experiencesData}: Props) {
+function Profile({aboutMeData,certificationsData, experiencesData}: Props) {
   return (
     <div id="profile">
-      <h1>Educations</h1>
+      <h1>About Me</h1>
 
-      {educationData.courses.map((course) => (
-        <div key={course}>
-        <h3>{course}</h3>
+      {aboutMeData.description} <br />
+
+      <h1>Experiences</h1>
+
+      {experiencesData.map((experience) => (
+        <div key={experience.role}>
+          <h3>{experience.role}</h3>
+          {experience.type} <br />
+          {experience.company} <br />
+          {experience.date_start} - {experience.date_end} <br />
+          {experience.description} <br />
         </div>
       ))}
-      {educationData.institution} <br />
-      {educationData.date_start + " - " + educationData.date_end} <br />
 
       <h1>Certifications</h1>
 
@@ -33,18 +39,6 @@ function Profile({educationData, certificationsData, experiencesData}: Props) {
           </a>
           <h3>{certification.name}</h3>
           {certification.date} <br />
-        </div>
-      ))}
-
-      <h1>Experiences</h1>
-
-      {experiencesData.map((experience) => (
-        <div key={experience.role}>
-          <h3>{experience.role}</h3>
-          {experience.type} <br />
-          {experience.company} <br />
-          {experience.date_start} - {experience.date_end} <br />
-          {experience.description} <br />
         </div>
       ))}
     </div>

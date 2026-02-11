@@ -6,7 +6,7 @@ type Props = {
 
 function Contacts({data}: Props) {
   return (
-    <div>
+    <div id="contacts">
       <h1>Contacts</h1>
 
       {data.map((contact) => (

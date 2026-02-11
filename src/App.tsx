@@ -32,12 +32,12 @@ function App() {
             <Header aboutMeData={resumeData.about_me} />
             <Directories />
             <Profile 
-              educationData={resumeData.education}
+              aboutMeData={resumeData.about_me}
               certificationsData={resumeData.certifications}
               experiencesData={resumeData.experiences}
             />
-            <Skills data={resumeData.skills} />
             <Contacts data={resumeData.contacts} />
+            <Skills data={resumeData.skills} />
             <Projects projects={projectsData.projects} />
           </>
         )

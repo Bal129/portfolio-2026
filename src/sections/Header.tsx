@@ -7,10 +7,7 @@ type Props = {
 function Header({aboutMeData}: Props) {
   return (
     <div id="header">
-      <h1>Header</h1>
-
-      <h2>{aboutMeData.name}</h2> <br />
-      {aboutMeData.description} <br />
+      <h1>{aboutMeData.name}</h1>
     </div>
   )
 }
