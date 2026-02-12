@@ -28,7 +28,7 @@ function Profile({certificationsData, experiencesData}: Props) {
               </div>
               <div className="experiences-company">
                 <img 
-                  src={"/icons/"+experience.icon}
+                  src={`${import.meta.env.BASE_URL}icons/${experience.icon}`}
                   title={experience.company}
                   alt={"Logo for"+experience.company}
                   width="35" height="35"
@@ -46,7 +46,7 @@ function Profile({certificationsData, experiencesData}: Props) {
         {certificationsData.map((certification) => (
           <div className="certifications-container" key={certification.name}>            
             <img 
-              src={"/icons/"+certification.icon}
+              src={`${import.meta.env.BASE_URL}icons/${certification.icon}`}
               title={certification.name}
               alt={certification.name}
               width="120" height="120"

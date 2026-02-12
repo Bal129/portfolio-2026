@@ -29,7 +29,7 @@ function Skills({data}: Props) {
             {skillCategory.items.map((skill) => (
               <div key={skill.name} className="skill-item">
                 <img 
-                  src={"/icons/"+skill.icon}
+                  src={`${import.meta.env.BASE_URL}icons/${skill.icon}`}
                   title={skill.name}
                   alt={skill.name}
                   width="100" height="100"

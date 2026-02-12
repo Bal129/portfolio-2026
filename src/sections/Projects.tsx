@@ -16,7 +16,7 @@ function Projects({projects}: Props) {
           <div key={project.name} className="projects-container">
             <div>
               <img 
-                src={"/thumbnails/"+project.thumbnail}
+                src={`${import.meta.env.BASE_URL}thumbnails/${project.thumbnail}`}
                 alt="Project Thumbnail"
                 title={project.name}
                 className="projects-thumbnail"
@@ -41,7 +41,7 @@ function Projects({projects}: Props) {
                 {project.technical_desc.map((item) => (
                   <img 
                     key={item.name}
-                    src={"/icons/"+item.icon}
+                    src={`${import.meta.env.BASE_URL}icons/${item.icon}`}
                     alt={item.name}
                     title={item.name}
                     width="50" height="50"

@@ -10,7 +10,7 @@ function Header({aboutMeData}: Props) {
   return (
     <div id="header" className="header-section">
       <img 
-        src="/header/my-pic.jpg"
+        src={`${import.meta.env.BASE_URL}header/my-pic.jpg`}
         alt="My Picture"
         className="header-picture"
       />
