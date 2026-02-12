@@ -7,6 +7,7 @@ import Directories from './sections/Directories';
 import Projects from './sections/Projects';
 
 // import components
+import Hero from './components/Hero';
 import CustomFooter from './components/CustomFooter';
 
 // import types
@@ -25,24 +26,27 @@ const projectsData: ProjectsType = projectsJson;
 
 function App() {
   return (
-    <div>
-      {
-        resumeData && (
-          <>
-            <Directories />
-            <Header aboutMeData={resumeData.about_me} />
-            <Profile 
-              certificationsData={resumeData.certifications}
-              experiencesData={resumeData.experiences}
-            />
-            <Contacts data={resumeData.contacts} />
-            <Skills data={resumeData.skills} />
-            <Projects projects={projectsData.projects} />
-          </>
-        )
-      }
-      <CustomFooter />
-    </div>
+    <>
+      <Directories />
+      <Hero />
+      <div className="app-container">
+        {
+          resumeData && (
+            <>
+              <Header aboutMeData={resumeData.about_me} />
+              <Profile 
+                certificationsData={resumeData.certifications}
+                experiencesData={resumeData.experiences}
+              />
+              <Contacts data={resumeData.contacts} />
+              <Skills data={resumeData.skills} />
+              <Projects projects={projectsData.projects} />
+            </>
+          )
+        }
+        <CustomFooter />
+      </div>
+    </>
   )
 }
 

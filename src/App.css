@@ -1,26 +1,45 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 0rem 2rem 2rem 2rem;
   text-align: center;
+}
+
+.app-container {
+  margin: 1em auto;
+}
+
+.parallax-hero {
+  position: relative;
+  height: 50vh; /* half screen */
+  background-image: url('/header/banner.png');
+  background-size: contain;
+  background-position: center top;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: -10em;
+  padding: 0;
 }
 
 .directories-tab {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;           /* Stays at the top of the viewport when scrolled to this position */
   padding: 10px 0;
   z-index: 1000;    /* Ensures the header is above other content */
-  width: 100%;      /* Ensures the header spans the full width */
+  width: 100%;
   gap: 1em;
 }
 
 .header-section {
-  padding-top: 3em;
+  position: relative;
   display: flex;
   flex-direction: column;
+  margin-top: -15em;
 }
 
 .header-dots {
@@ -30,8 +49,9 @@
 }
 
 .header-picture {
-  width: 100%;
+  width: 90%;
   height: 500px;
+  margin: auto;
   object-fit: cover;
 }
 
@@ -58,6 +78,7 @@
   gap: 2rem;
   margin: 2em 0em;
   text-align: left;
+  padding: 0.5em;
 }
 
 .experiences-role {
@@ -90,6 +111,7 @@
 .certifications-container {
   text-align: center;
   margin-bottom: 5em;
+  padding: 0.5em;
 }
 
 .certifications-name {
@@ -107,6 +129,7 @@
   flex-direction: column;
   text-align: left;
   gap: 1rem;
+  padding: 0em 2em;
 }
 
 .skill-header {
@@ -116,8 +139,8 @@
 .skill-container {
   border: 2px solid white;
   border-radius: 12px;
+  margin: 2em 0.5em;
   padding: 2em;
-  margin: 3em 0em;
 }
 
 .skill-item {
@@ -136,13 +159,15 @@
 }
 
 .projects-container {
-  margin: 3em 0em;
+  margin: 3em auto;
+  padding: 0.5em;
 }
 
 .projects-thumbnail {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 .projects-details {
@@ -174,7 +199,35 @@
   width: 200px;
 }
 
+/* Hovers */
+
+.experiences-container:hover,
+.certifications-container:hover,
+.skill-container:hover,
+.projects-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.skill-container:hover {
+  margin: 0em;
+}
+
+.contacts-icon:hover {
+  color: rgba(255, 255, 255);
+}
+
+.projects-thumbnail:hover {
+  transform: scale(1.2);
+}
+
+
 @media (min-width: 768px) {
+  .app-container {
+    margin: 1em 10em;
+  }
+
   .header-section {
     display: flex;
     flex-direction: row;
@@ -205,6 +258,13 @@
 
   .experiences-period {
     min-width: 200px;
+  }
+
+  .skill-container {
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 2em;
+    padding: 2em;
   }
 
   .contacts-list {

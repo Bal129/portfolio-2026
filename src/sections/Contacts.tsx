@@ -22,7 +22,7 @@ function Contacts({data}: Props) {
       <div className="contacts-list">
         {data.map((contact) => (
           <div key={contact.username} className="contact-item">
-            <a href={contact.url} title={contact.url} target="_blank">
+            <a href={contact.url} title={contact.url} target="_blank" className="contacts-icon">
               <FontAwesomeIcon icon={iconMap[contact.icon]} style={{width:50,height:50}}/>
             </a>
             {contact.username}

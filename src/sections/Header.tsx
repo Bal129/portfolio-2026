@@ -18,7 +18,7 @@ function Header({aboutMeData}: Props) {
         <span className="header-title">{aboutMeData.name}</span>
         <br />
         <small><FontAwesomeIcon icon={faEllipsis} /></small>
-        <h3>{aboutMeData.description}</h3>
+        <h3 style={{padding:10}}>{aboutMeData.description}</h3>
       </div>
     </div>
   )
