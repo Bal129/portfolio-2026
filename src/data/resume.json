@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "2",
   "resume_link": "",
   "portfolio_link": "",
   "about_me": {
@@ -14,63 +14,67 @@
       "items": [
         {
           "name": "HTML",
-          "icon": "placeholder.png"
+          "icon": "logo-html.png"
         },
         {
           "name": "CSS",
-          "icon": "placeholder.png"
+          "icon": "logo-css.png"
         },
         {
           "name": "Bootstrap",
-          "icon": "placeholder.png"
+          "icon": "logo-bootstrap.png"
         },
         {
           "name": "Typescript",
-          "icon": "placeholder.png"
+          "icon": "logo-typescript.png"
         },
         {
           "name": "React",
-          "icon": "placeholder.png"
+          "icon": "logo-react.png"
         },
         {
           "name": "React-Native",
-          "icon": "placeholder.png"
+          "icon": "logo-react-native.png"
         },
         {
           "name": "Vue",
-          "icon": "placeholder.png"
+          "icon": "logo-vue.png"
         },
         {
           "name": "Java",
-          "icon": "placeholder.png"
+          "icon": "logo-java.png"
         },
         {
           "name": "C#",
-          "icon": "placeholder.png"
+          "icon": "logo-cs.png"
         },
         {
           "name": "C++",
-          "icon": "placeholder.png"
+          "icon": "logo-cpp.png"
         },
         {
-          "name": "Python (FastAPI)",
-          "icon": "placeholder.png"
+          "name": "Python",
+          "icon": "logo-python.png"
+        },
+        {
+          "name": "FastAPI",
+          "icon": "logo-fastapi-2.png"
         },
         {
           "name": "PHP",
-          "icon": "placeholder.png"
+          "icon": "logo-php.png"
         },
         {
           "name": "Go",
-          "icon": "placeholder.png"
+          "icon": "logo-golang.png"
         },
         {
           "name": "MySQL",
-          "icon": "placeholder.png"
+          "icon": "logo-mysql.png"
         },
         {
           "name": "PostgresQL",
-          "icon": "placeholder.png"
+          "icon": "logo-postgres.png"
         }
       ]
     },
@@ -81,27 +85,27 @@
       "items": [
         {
           "name": "Github",
-          "icon": "placeholder.png"
+          "icon": "logo-github.png"
         },
         {
           "name": "Ubuntu",
-          "icon": "placeholder.png"
+          "icon": "logo-ubuntu.png"
         },
         {
           "name": "Docker",
-          "icon": "placeholder.png"
+          "icon": "logo-docker.png"
         },
         {
           "name": "Unity",
-          "icon": "placeholder.png"
+          "icon": "logo-unity.png"
         },
         {
           "name": "Unreal Engine 5",
-          "icon": "placeholder.png"
+          "icon": "logo-unreal.png"
         },
         {
           "name": "Phaser Js",
-          "icon": "placeholder.png"
+          "icon": "logo-phaser.png"
         }
       ]
     },
@@ -112,23 +116,23 @@
       "items": [
         {
           "name": "Microsoft Office",
-          "icon": "placeholder.png"
+          "icon": "logo-moffice.png"
         },
         {
           "name": "Blender",
-          "icon": "placeholder.png"
+          "icon": "logo-blender.png"
         },
         {
           "name": "Krita",
-          "icon": "placeholder.png"
+          "icon": "logo-krita.png"
         },
         {
           "name": "VSDC video editor",
-          "icon": "placeholder.png"
+          "icon": "logo-vsdc.png"
         },
         {
           "name": "PC build, services and sales",
-          "icon": "placeholder.png"
+          "icon": "logo-pc.png"
         }
       ]
     }
@@ -167,6 +171,7 @@
       "role": "IT Engineer",
       "type": "Full time",
       "company": "Iotra Digital",
+      "icon": "logo-iotra.png",
       "date_start": "May 2025",
       "date_end": "Present",
       "description": "Integrated IoT devices into dashboards and developed web apps for clients, also performed on-site technician work"
@@ -175,6 +180,7 @@
       "role": "PC Builder & Retail Assistant",
       "type": "Full time",
       "company": "Lucro PC",
+      "icon": "logo-lucro.png",
       "date_start": "May 2024",
       "date_end": "February 2025",
       "description": "Built, troubleshot and serviced over 100 custom PCs for personal and business use."
@@ -183,6 +189,7 @@
       "role": "Technician",
       "type": "Contract",
       "company": "Zikay Synergy",
+      "icon": "logo-zikay.png",
       "date_start": "February 2024",
       "date_end": "March 2024",
       "description": "Travelled to the clients' offices to install laptops, printers, charging stations and their respective software including drivers. Performed testing and documented records."
@@ -191,6 +198,7 @@
       "role": "Web Developer",
       "type": "Internship",
       "company": "Pro Office Technology",
+      "icon": "logo-prooffice.png",
       "date_start": "July 2023",
       "date_end": "October 2023",
       "description": "Developed a full-stack website for the company's internal data entry system."
@@ -199,13 +207,13 @@
   "certifications": [
     {
       "name": "CompTIA Tech+ Certification",
-      "icon": "placeholder.png",
+      "icon": "logo-comptia.png",
       "date": "September 2025",
       "credential_url": "https://www.credly.com/badges/ca008887-2996-45d1-b6f3-d442a1cd5446/public_url"
     },
     {
       "name": "ICDL Data Analytics",
-      "icon": "placeholder.png",
+      "icon": "logo-icdl.png",
       "date": "November 2022",
       "credential_url": "https://profile.icdlasia.org/dbc7899e-232c-490e-8496-315701c67024#acc.nup4fdlP"
     }

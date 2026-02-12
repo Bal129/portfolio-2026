@@ -43,6 +43,7 @@ export type ExperiencesType = {
   role: string,
   type: string,
   company: string,
+  icon: string,
   date_start: string,
   date_end: string,
   description: string

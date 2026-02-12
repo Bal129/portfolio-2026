@@ -8,35 +8,35 @@
       "technical_desc": [
         {
           "name": "HTML",
-          "icon": "placeholder.png"
+          "icon": "logo-html.png"
         },
         {
           "name": "CSS",
-          "icon": "placeholder.png"
+          "icon": "logo-css.png"
         },
         {
           "name": "Typescript",
-          "icon": "placeholder.png"
+          "icon": "logo-typescript.png"
         },
         {
           "name": "React",
-          "icon": "placeholder.png"
+          "icon": "logo-react.png"
         },
         {
           "name": "React-Native",
-          "icon": "placeholder.png"
+          "icon": "logo-react-native.png"
         },
         {
           "name": "Python",
-          "icon": "placeholder.png"
+          "icon": "logo-python.png"
         },
         {
           "name": "FastAPI",
-          "icon": "placeholder.png"
+          "icon": "logo-fastapi-2.png"
         }
       ],
       "description": "A system for factories to manage and authorize contractor entry into premises. Project for a client thus the source code is confidential.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "eptw.png"
     },
     {
       "name": "Pokedex Website",
@@ -45,23 +45,23 @@
       "technical_desc": [
         {
           "name": "HTML",
-          "icon": "placeholder.png"
+          "icon": "logo-html.png"
         },
         {
           "name": "CSS",
-          "icon": "placeholder.png"
+          "icon": "logo-css.png"
         },
         {
           "name": "Javascript",
-          "icon": "placeholder.png"
+          "icon": "logo-javascript.png"
         },
         {
           "name": "Vue.js",
-          "icon": "placeholder.png"
+          "icon": "logo-vue.png"
         }
       ],
       "description": "A simple Pokedex (an encyclopedia for the video game series Pokemon) to practice Vue router and fetching data from an open source RestfulAPI.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "pokedex.png"
     },
     {
       "name": "Forecast Website",
@@ -70,23 +70,23 @@
       "technical_desc": [
         {
           "name": "HTML",
-          "icon": "placeholder.png"
+          "icon": "logo-html.png"
         },
         {
           "name": "CSS",
-          "icon": "placeholder.png"
+          "icon": "logo-css.png"
         },
         {
           "name": "Javascript",
-          "icon": "placeholder.png"
+          "icon": "logo-javascript.png"
         },
         {
           "name": "Vue.js",
-          "icon": "placeholder.png"
+          "icon": "logo-vue.png"
         }
       ],
       "description": "A website to display weather and waves forecast for surfing. Freelance project developed for my client thus the source code is confidential.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "forecast.png"
     },
     {
       "name": "Http Listener & Process Monitor Script",
@@ -95,11 +95,11 @@
       "technical_desc": [
         {
           "name": "Go",
-          "icon": "placeholder.png"
+          "icon": "logo-golang.png"
         }
       ],
       "description": "A lightweight script to listen to webhooks from an IoT network server and a monitoring script that sends email if the listener failed.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "listener.png"
     },
     {
       "name": "NakFit",
@@ -108,15 +108,15 @@
       "technical_desc": [
         {
           "name": "Unity 2d",
-          "icon": "placeholder.png"
+          "icon": "logo-unity.png"
         },
         {
           "name": "C#",
-          "icon": "placeholder.png"
+          "icon": "logo-cs.png"
         }
       ],
       "description": "A 2d motion-controlled video game with for Noizucon 2024 convention booth. Players physically squat to move the character using motion tracking.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "nakfit.png"
     },
     {
       "name": "Blocks",
@@ -125,15 +125,11 @@
       "technical_desc": [
         {
           "name": "Unreal Engine 5",
-          "icon": "placeholder.png"
-        },
-        {
-          "name": "Blueprint",
-          "icon": "placeholder.png"
+          "icon": "logo-unreal.png"
         }
       ],
       "description": "A 3d first-person video game with combination of action and puzzle elements. This project focuses on using Unreal Engine 5 and its physics engine.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "blocks.png"
     },
     {
       "name": "RPG Battle Systems Using Gyroscope",
@@ -142,15 +138,15 @@
       "technical_desc": [
         {
           "name": "Unity 3d",
-          "icon": "placeholder.png"
+          "icon": "logo-unity.png"
         },
         {
           "name": "C#",
-          "icon": "placeholder.png"
+          "icon": "logo-cs.png"
         }
       ],
       "description": "A 3d action adventure mobile video game that implements gyroscope inputs from a smartphone device. My Degree's Final Year Project.",
-      "thumbnail": "placeholder.png"
+      "thumbnail": "gyroscope.png"
     }
   ]
 }

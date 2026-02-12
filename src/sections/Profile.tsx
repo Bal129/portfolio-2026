@@ -28,7 +28,7 @@ function Profile({certificationsData, experiencesData}: Props) {
               </div>
               <div className="experiences-company">
                 <img 
-                  src={"/icons/placeholder.png"}
+                  src={"/icons/"+experience.icon}
                   title={experience.company}
                   alt={"Logo for"+experience.company}
                   width="35" height="35"
