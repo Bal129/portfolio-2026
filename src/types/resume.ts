@@ -16,6 +16,7 @@ export type AboutMeType = {
 
 export type SkillsType = {
   type: string,
+  icon: string,
   items: SkillItemType[]
 }
 
